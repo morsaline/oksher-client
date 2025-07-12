@@ -9,6 +9,7 @@ import SingleNewsDetails from "../Pages/NewsBd/SingleNewsDetails/SingleNewsDetai
 import Contact from "../Pages/Contact/Contact";
 import About from "../Pages/About/About";
 import AllNews from "../Pages/NewsBd/AllNews/AllNews";
+import Checkout from "../Pages/Checkout/Checkout";
 // import OrderDetails from "../components/OrderDetails/OrderDetails";
 // import UpdateOrder from "../pages/Dashboard/Orders/UpdateOrder";
 import SingleVideoNews from "../Pages/NewsBd/VideosNews/SingleVideoNews/SingleVideoNews";
@@ -36,7 +37,7 @@ import SignUp from "../Auth/SignUp/SignUp";
 // import LoginPage from "../Auth/LoginPage/LoginPage";
 // import DemoLogin from "../Auth/DemoLogin/DemoLogin";
 import LoginPage from "../Auth/LoginPage/LoginPage";
-import Checkout from "../Pages/Checkout/Checkout";
+// import Checkout from "../Pages/Checkout/Checkout";
 import AdedAdress from "../Pages/AddNewAddress/AdedAdress";
 import UserProfile from "../Pages/UserProfile/UserProfile";
 import OrderDone from "../Pages/OrderDone/OrderDone";
