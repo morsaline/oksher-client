@@ -10,7 +10,7 @@ import Contact from "../Pages/Contact/Contact";
 import About from "../Pages/About/About";
 import AllNews from "../Pages/NewsBd/AllNews/AllNews";
 // import OrderDetails from "../components/OrderDetails/OrderDetails";
-import UpdateOrder from "../pages/Dashboard/Orders/UpdateOrder";
+// import UpdateOrder from "../pages/Dashboard/Orders/UpdateOrder";
 import SingleVideoNews from "../Pages/NewsBd/VideosNews/SingleVideoNews/SingleVideoNews";
 import AllVideosNews from "../Pages/NewsBd/VideosNews/AllVideosNews/AllVideosNews";
 import Cart from "../Pages/Cart/Cart";
@@ -50,6 +50,7 @@ import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
 import ForgetPasswordRequest from "../Pages/ForgetPassword/ForgetPasswordRequest";
 import UpdateBcsNews from "../Pages/Dashboard/BcsNews/UpdateBcs";
 import SingleBcsNews from "../Pages/BcsCategory/SingleBcsNews";
+import UpdateOrder from "../Pages/Dashboard/Orders/UpdateOrder";
 // import Pdf from "../Pages/Dashboard/Pdf/Pdf";
 const router = createBrowserRouter([
   {
