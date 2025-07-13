@@ -81,7 +81,7 @@ const Sidebar = () => {
     // },
   ];
   return (
-    <div className="bg-[#1F2659] xl:min-h-screen xl:w-96 lg:w-full md:w-full w-full">
+    <div className="bg-[#1F2659] ">
       <div className="xl:my-7 lg:my-5 md:my-5 my-5 mx-8">
         <Link to="/" className="">
           <img src={logo} alt="" className="w-48 -ml-6" />
@@ -89,20 +89,19 @@ const Sidebar = () => {
       </div>
       <ul className="nabLinkStyle space-y-4 mx-auto xl:w-full lg:w-[90%] md:w-[90%] w-[95%]">
         {sideBar.map((data, index) => (
-          <li
-            key={index}
-            className=" text-white xl:block lg:inline-block md:inline-block inline-block"
-          >
+          <li key={index} className=" text-white md:block  inline-block">
             <NavLink
               // className="flex gap-2 p-4 text-xl font-semibold items-center"
               className={({ isActive }) =>
-                `font-semibold text-lg xl:block md:inline-block ${
-                  isActive ? "bg-[#E52D27]" : ""
-                } duration-300 px-2`
+                `font-semibold text-lg inline md:block ${
+                  isActive ? "md:bg-[#E52D27] text-[#E52D27] md:text-white" : ""
+                } duration-300 p-2`
               }
               to={`${data.link}`}
             >
-              <Icon icon={data.icon} /> {data.title}
+              <div className="flex items-center gap-1 mr-3 md:mr-0">
+                <Icon icon={data.icon} /> {data.title}
+              </div>
             </NavLink>
           </li>
         ))}
